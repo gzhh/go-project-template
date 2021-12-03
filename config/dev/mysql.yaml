@@ -1,0 +1,7 @@
+mysql:
+  test:
+    conn:
+      - "root:@tcp(127.0.0.1:3306)/test?charset=utf8&parseTime=true&loc=Local&timeout=1s&readTimeout=60s&writeTimeout=10s"
+    max_idle: 0
+    max_open: 10
+    max_lifetime: 600000000000
